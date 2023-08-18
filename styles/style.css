@@ -1,0 +1,160 @@
+body {
+  width: 100%;
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  line-height: normal;
+  background: #f5f5f5;
+}
+
+section {
+  padding: 150px 125px 0px 125px;
+}
+
+.section_long {
+  padding-bottom: 150px;
+}
+
+.container_title {
+  margin: 0 auto;
+  width: 1400px;
+  background: #ffffff;
+}
+
+.interior {
+  position: relative;
+  margin-top: 30px;
+  width: 1150px;
+  height: 500px;
+  background-image: url(../styles/resources/interior.png);
+}
+
+.image-text {
+  position: absolute;
+  left: 40px;
+  bottom: 40px;
+  width: 430px;
+  height: 81px;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: -0.6px;
+  color: #ffffff;
+}
+
+h1,
+h2,
+h3 {
+  text-align: left;
+  color: #121212;
+}
+
+h1 {
+  font-size: 60px;
+  letter-spacing: -1.8px;
+}
+
+h2 {
+  font-size: 18px;
+  letter-spacing: -0.54px;
+}
+
+h3 {
+  margin-top: 15px;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+}
+
+.description {
+  margin-top: 30px;
+  width: 1048px;
+  height: 366px;
+  font-weight: 400;
+  font-size: 45px;
+  letter-spacing: -1.35px;
+  text-align: left;
+}
+
+a.btn_view_services {
+  margin-top: 30px;
+  display: inline-block;
+  padding: 20px 40px;
+  border-radius: 5px;
+  text-decoration: none;
+  background: #ad1818;
+  color: #ffffff;
+}
+
+.projects {
+  margin-top: 30px;
+}
+
+.projects .project {
+  margin-top: 90px;
+}
+
+.projects :first-child {
+  margin-top: 0;
+}
+
+.project__title {
+  color: #121212;
+}
+
+.project__link {
+  margin-top: 15px;
+  display: inline-block;
+  font-size: 20px;
+  letter-spacing: -0.6px;
+  text-decoration: none;
+  color: #ad1818;
+}
+
+.button_see_all_projects {
+  width: 100%;
+  display: block;
+  padding: 56px;
+  border-radius: 5px;
+  border: 1px solid #ad1818;
+  color: #ad1818;
+  text-align: center;
+  text-decoration: none;
+  font-size: 30px;
+  letter-spacing: -0.9px;
+  color: #ad1818;
+}
+.button_see_all_projects:hover {
+  background: #ad1818;
+  color: #ffffff;
+}
+
+.section_services {
+  position: relative;
+  margin: 0 auto;
+  width: 1400px;
+  height: 1844px;
+  flex-shrink: 0;
+  background: #121212;
+}
+
+.section_services h2,
+h3 {
+  color: #fff;
+}
+
+.container_services {
+  padding-top: 150px;
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+.services {
+  padding-top: 30px;
+}
+
+.services .service {
+  margin-top: 60px;
+}
+
+.service:first-child {
+  margin-top: 0;
+}
